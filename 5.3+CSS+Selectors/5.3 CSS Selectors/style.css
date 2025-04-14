@@ -5,3 +5,52 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+p
+{
+  color: red;
+
+}
+/*.class-name == like a string reference*/
+.red-text 
+{
+  color: red;
+}  
+.note
+{
+ font-size: 20px;
+}
+/*Id selector == once again like a string reference */
+#main
+{
+  background-color: lightblue;
+}
+#id-selector-demo
+{
+color:green;
+
+}
+li[value="4"]
+{
+  color: blue;
+}
+
+/*a class selector can target many elements, an Id selector is unique to a single element */
+
+
+/* attribute selector */
+/* all paragraph elements with attribute draggable*/  
+p[draggable = true]
+{
+  color: green;
+}
+
+*{
+text-align: center;
+
+}
+/* select all */
+*
+{
+  color: black;
+
+}
