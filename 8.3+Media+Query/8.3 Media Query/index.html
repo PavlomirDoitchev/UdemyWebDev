@@ -17,14 +17,44 @@ TODO: Change the background color for each device
     body {
       background-color: aquamarine;
     }
-    @media (max-width: 680px) {
+    @media (min-width: 319px) and (max-width: 480px) {
       body {
         background-color: lightsalmon;
       }
     }
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+    }
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+
+    }
+    img:hover {
+      transform: scale(1.1);
+      outline: 2px solid black;
+      transition: transform 0.5s ease;
+    }
+    img:active {
+      transform: scale(0.9);
+      transition: transform 0.5s ease;
+    }
+    
   </style>
 </head>
-
+<img src="https://cdn.pixabay.com/photo/2024/11/30/15/55/eiffel-tower-9235220_1280.jpg" alt="Desktop" width="25%" height="auto">
 <body>
 </body>
 
