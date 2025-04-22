@@ -13,18 +13,15 @@
     .container {
       color: white;
       border: 5px solid gold;
-      display: inline-flex;
-      flex-direction: column;
+      display: flex;
+      justify-content:center;
+      flex-direction:row;
     }
     .container > *{
       /* Select all the elements that are the direct children of the .container class. */
-      flex-basis: 100px;
-    }
-
-    /*
-Select all the elements that are the direct
-children of the .container class.
-    */
+      flex: 1;
+  }
+    
 
     .red {background-color: #eb4d4b;}
     .orange {background-color: #f0932b;}
